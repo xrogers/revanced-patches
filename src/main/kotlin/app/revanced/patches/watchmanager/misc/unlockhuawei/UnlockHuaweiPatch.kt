@@ -9,7 +9,7 @@ import app.revanced.patches.watchmanager.misc.unlockhuawei.fingerprints.IsNotSup
 
 @Patch(
     name = "Unlock Huawei",
-    compatiblePackages = [CompatiblePackage("com.samsung.android.app.watchmanager", ["2.2.57"])]
+    compatiblePackages = [CompatiblePackage("com.samsung.android.app.watchmanager")]
 )
 @Suppress("unused")
 object UnlockHuaweiPatch : BytecodePatch(
